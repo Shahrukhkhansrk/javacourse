@@ -1,28 +1,27 @@
 
 public class ObjectCount {
 
-	public ObjectCount()
-	{
+	public ObjectCount() {
 		counter++;
 	}
-	public void setName(String name)
-	{
-		
+
+	public void setName(String name) {
+
 		this.name = name;
 	}
-	
-	public String getName()
-	{
+
+	public String getName() {
 		return name;
 	}
-	
-	public static int getCounter()
-	{
-		
+
+	public static int getCounter() {
+
 		return counter;
 	}
-	//Instance Variables
+
+	// Class variables
 	public final static int MAX_STUDENT = 40;
 	public static int counter = 0;
+	// Instance Variables
 	private String name;
 }
