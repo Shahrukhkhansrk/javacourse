@@ -1,7 +1,7 @@
 
-public class Student {
+public class ObjectCount {
 
-	public Student()
+	public ObjectCount()
 	{
 		counter++;
 	}
