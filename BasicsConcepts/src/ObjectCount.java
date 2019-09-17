@@ -1,10 +1,12 @@
-
+/*class demonstrating the use and need of static variables*/
 public class ObjectCount {
 
+	// public constructor
 	public ObjectCount() {
 		counter++;
 	}
 
+	// setter and getter for name
 	public void setName(String name) {
 
 		this.name = name;
@@ -17,6 +19,11 @@ public class ObjectCount {
 	public static int getCounter() {
 
 		return counter;
+	}
+
+	//overriding the toString method of the Object class
+	public String toString() {
+		return "name : " + name;
 	}
 
 	// Class variables
